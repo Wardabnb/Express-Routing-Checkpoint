@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+.navbar{
+    background-color: #181717;
+}
+.navbar img{
+    background-color: rgb(218, 220, 222);
+    
+}
+h1{
+    text-align: center;
+    color: chocolate;
+    font-size: 100px;
+    
+}
+p{
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    font-size: large;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 100px;
+    text-align: justify;
+    background-color: aliceblue;
+    gap: 20px;
+    
+
+}
+.information h3{
+  text-decoration: underline;
+  font-weight: lighter;
+}
+.information p{
+    width: 250px;
+    text-align: justify;
+    position: relative;
+
+}
+.follow{
+    position: relative;
+    bottom: 30px;
+}
+.icons{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 20px;
+}

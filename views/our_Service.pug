@@ -1,0 +1,57 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Document
+    link(rel='stylesheet' href='./css/our_service.css')
+  body 
+  .navbar
+    include ./navbar.pug
+  .container 
+    div 
+      h1 
+        span DISCOVER 
+        br
+        |OUR SERVICES
+      p A high-end fitness center, featuring specialized spaces over more than 1600m²
+      a(href="")  Our Services
+  .content 
+    .item 
+      img(src="../images/str.jpg", alt="")
+      div 
+        h1 
+          span #{item1.span}
+          | #{item1.h1}
+
+        p #{item1.p}
+        button #{item1.button}
+
+    .item 
+      div 
+          h1 
+            span #{item2.span}
+            |#{item2.h1}
+
+          p #{item2.p}
+          button #{item2.button}
+      img(src="../images/cardio.jpg", alt="")
+    .item 
+      img(src="../images/cross.jpg", alt="")
+      div 
+        h1 
+          span #{item3.span}
+          | #{item3.h1}
+
+        p #{item3.p}
+        button #{item3.button}
+    .item
+      div 
+        h1 
+          span #{item4.span}
+          | #{item4.h1}
+        p #{item4.p}
+        button #{item4.button}
+      img(src="../images/group.jpg", alt="")
+
+
